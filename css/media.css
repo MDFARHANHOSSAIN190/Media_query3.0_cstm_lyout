@@ -1,0 +1,194 @@
+/*Extra small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+	 .container{
+ 	width:95%;
+   }
+    .img_item{
+ 	width: 100%;
+ }
+/* media query */
+.es{
+		display: inline-block;
+	}
+	.sm{
+		display: none;
+	}
+	.md{
+		display: none;
+	}
+	.lg{
+		display: none;
+	}
+	.xl{
+		display: none;
+	}
+	.xxl{
+		display: none;
+	}
+	body{
+		background-color:green;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)  */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	 .container{
+ 	width: 520px;
+   }
+      .img_item{
+ 	width: 50%;
+ }
+/* media query */
+
+.es{
+		display: none;
+	}
+	.sm{
+		display: inline-block;
+	}
+	.md{
+		display: none;
+	}
+	.lg{
+		display: none;
+	}
+	.xl{
+		display: none;
+	}
+	.xxl{
+		display: none;
+	}
+	body{
+		background-color: orangered;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)  */ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+	 .container{
+ 	width: 720px;
+   }
+   .img_item{
+ 	width: 50%;
+ }
+ /* media query */
+.es{
+		display: none;
+	}
+	.sm{
+		display: none;
+	}
+	.md{
+		display: inline-block;
+	}
+	.lg{
+		display: none;
+	}
+	.xl{
+		display: none;
+	}
+	.xxl{
+		display: none;
+	}
+	body{
+		background-color: deepskyblue;
+	}
+
+
+}
+
+/*Large devices (desktops, 992px and up)  */ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+/* edia query */
+	.es{
+		display: none;
+	}
+	.sm{
+		display: none;
+	}
+	.md{
+		display: none;
+	}
+	.lg{
+		display: inline-block;
+	}
+	.xl{
+		display: none;
+	}
+	.xxl{
+		display: none;
+	}
+	body{
+		background-color: teal;
+	}
+}
+
+/* Extra large devices (desktops, 1200px and up)  */ 
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+  .container{
+ 	width: 1140px;
+   }
+   /* media query */
+.es{
+		display: none;
+	}
+	.sm{
+		display: none;
+	}
+	.md{
+		display: none;
+	}
+	.lg{
+		display: none;
+	}
+	.xl{
+		display: inline-block;
+	}
+	.xxl{
+		display: none;
+	}
+	body{
+		background-color: darkred;
+	}
+
+
+ }
+
+
+/*Extra extra large devices (large desktops, 1400px and up)  */ 
+@media (min-width: 1400px) {
+
+  .container{
+ 	width: 1320px;
+   }
+   /* media query */
+
+.es{
+		display: none;
+	}
+	.sm{
+		display: none;
+	}
+	.md{
+		display: none;
+	}
+	.lg{
+		display: none;
+	}
+	.xl{
+		display: none;
+	}
+	.xxl{
+		display: inline-block;
+	}
+	body{
+		background-color:aqua;
+	}
+
+
+}
